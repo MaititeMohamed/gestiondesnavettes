@@ -1,0 +1,11 @@
+gestiondesnavettes\repository\UserRepository.class
+gestiondesnavettes\controller\HelloServlet.class
+gestiondesnavettes\model\Company.class
+gestiondesnavettes\model\Shuttle.class
+gestiondesnavettes\model\SubscriptionOffer.class
+gestiondesnavettes\model\User.class
+gestiondesnavettes\controller\LoginServlet.class
+gestiondesnavettes\controller\RegisterServlet.class
+gestiondesnavettes\service\UserService.class
+gestiondesnavettes\model\RequestDetail.class
+gestiondesnavettes\model\SubscriptionRequest.class
