@@ -52,8 +52,8 @@ public class LoginServlet extends HttpServlet {
                 HttpSession session = request.getSession();
                 session.setAttribute("user", user);
 
-                
-                request.getRequestDispatcher("/WEB-INF/views/home.jsp").forward(request, response);
+                request.getRequestDispatcher("/WEB-INF/views/searchOffers.jsp").forward(request, response);
+              
             } else {
                 request.setAttribute("error", "Invalid email or password.");
                 request.getRequestDispatcher("/WEB-INF/views/login.jsp").forward(request, response);

@@ -7,7 +7,7 @@ public class SubscriptionRequest {
     private int userId;
     private int shuttleId;
     private Date requestDate;
-    private String status;
+    private String status;  // pending, accepted, rejected
 
     // Constructor
     public SubscriptionRequest(int requestId, int userId, int shuttleId, Date requestDate, String status) {
@@ -18,7 +18,7 @@ public class SubscriptionRequest {
         this.status = status;
     }
 
-    // Getters and Setters
+    // Getters and setters
     public int getRequestId() {
         return requestId;
     }
@@ -59,4 +59,3 @@ public class SubscriptionRequest {
         this.status = status;
     }
 }
-

@@ -45,7 +45,8 @@ public class RegisterServlet extends HttpServlet {
 
         try {
             userService.registerUser(name, email, password);
-            response.sendRedirect("/WEB-INF/views/login.jsp");
+            
+            request.getRequestDispatcher("/WEB-INF/views/login.jsp").forward(request, response);
         } catch (IllegalArgumentException | SQLException e) {
             request.setAttribute("error", e.getMessage());
             request.getRequestDispatcher("/WEB-INF/views/register.jsp").forward(request, response);
