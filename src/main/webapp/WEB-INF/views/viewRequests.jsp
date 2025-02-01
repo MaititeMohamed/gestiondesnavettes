@@ -2,6 +2,14 @@
 <%@ page import="java.util.List" %>
 <%@ page language="java" errorPage="" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%
+    // Check if the user is logged in
+    if (session.getAttribute("user") == null) {
+        // Redirect to the login page
+        response.sendRedirect(request.getContextPath() + "/login.jsp");
+        return;
+    }
+%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
