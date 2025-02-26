@@ -2,7 +2,7 @@
 
 ## http://localhost:8080/gestiondesnavettes/login
 
-| Login Page | Register | Request |
+| Login Page |  Request |
 |------------|---------|---------|
 | ![Login Page](https://raw.githubusercontent.com/MaititeMohamed/gestiondesnavettes/main/images/login.png)  | ![Request Page](https://raw.githubusercontent.com/MaititeMohamed/gestiondesnavettes/main/images/request.png) |
 
